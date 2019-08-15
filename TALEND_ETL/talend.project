@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_A265AL-OEemAaabVtKY9-Q" label="Talend_ETL" description="Talend ETL" language="java" technicalLabel="TALEND_ETL" author="_A265Ab-OEemAaabVtKY9-Q" productVersion="Talend Cloud Data Management Platform-7.2.1.20190620_1446" url="{&quot;location&quot;:&quot;https://github.com/ibrahimtoure/talend_etl&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" bigData="false">
+    <migrationTask xmi:id="_A7qPEL-OEemAaabVtKY9-Q" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_A265Ab-OEemAaabVtKY9-Q" login="ibratechno@trial22383.us.talend.com" firstName="Ita" lastName="Lo" type="DQ"/>
+</xmi:XMI>
