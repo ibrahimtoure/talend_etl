@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:GenericSchemaConnection dataPackage="_GbvKgbn-EemirfxQml28XA" mappingTypeId="postgres_id" mappingTypeUsed="true" name="repository.metadataGenericSchema" xmi:id="_GbvKgLn-EemirfxQml28XA"/>
+  <TalendMetadata:GenericPackage dataManager="_GbvKgLn-EemirfxQml28XA" name="repository.metadataGenericSchema" xmi:id="_GbvKgbn-EemirfxQml28XA">
+    <ownedElement comment="smart_parking_sessions_schema" id="_sn09ALn8EemirfxQml28XA" label="smart_parking_sessions_schema" xmi:id="_GbvKgrn-EemirfxQml28XA" xsi:type="TalendMetadata:MetadataTable">
+      <feature label="id" name="id" sourceType="VARCHAR" talendType="id_String" xmi:id="_GbvKg7n-EemirfxQml28XA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="entry_activity_id" name="entry_activity_id" sourceType="VARCHAR" talendType="id_String" xmi:id="_GbvKhLn-EemirfxQml28XA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="exit_activity_id" name="exit_activity_id" sourceType="VARCHAR" talendType="id_String" xmi:id="_GbvKhbn-EemirfxQml28XA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="entry_at" name="entry_at" sourceType="VARCHAR" talendType="id_String" xmi:id="_GbvKh7n-EemirfxQml28XA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="exit_at" name="exit_at" sourceType="VARCHAR" talendType="id_String" xmi:id="_GbvKiLn-EemirfxQml28XA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="currency" name="currency" sourceType="VARCHAR" talendType="id_String" xmi:id="_GbvKibn-EemirfxQml28XA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="centre_id" name="centre_id" sourceType="VARCHAR" talendType="id_String" xmi:id="_GbvKirn-EemirfxQml28XA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="person_id" name="person_id" sourceType="VARCHAR" talendType="id_String" xmi:id="_GbvKi7n-EemirfxQml28XA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="transaction_final_amount" name="transaction_final_amount" sourceType="VARCHAR" talendType="id_String" xmi:id="_GbvKjbn-EemirfxQml28XA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="transaction_original_amount" name="transaction_original_amount" sourceType="VARCHAR" talendType="id_String" xmi:id="_GbvKjrn-EemirfxQml28XA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="created_at" name="created_at" sourceType="VARCHAR" talendType="id_String" xmi:id="_GbvKj7n-EemirfxQml28XA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="updated_at" name="updated_at" sourceType="VARCHAR" talendType="id_String" xmi:id="_GbvKkLn-EemirfxQml28XA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="transaction_tax_amount" name="transaction_tax_amount" sourceType="VARCHAR" talendType="id_String" xmi:id="_GbvKkbn-EemirfxQml28XA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="transaction_discount_amount" name="transaction_discount_amount" sourceType="VARCHAR" talendType="id_String" xmi:id="_GbvKkrn-EemirfxQml28XA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="transaction_surcharge_amount" name="transaction_surcharge_amount" sourceType="VARCHAR" talendType="id_String" xmi:id="_GbvKk7n-EemirfxQml28XA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="payment_status" name="payment_status" sourceType="VARCHAR" talendType="id_String" xmi:id="_GbvKlLn-EemirfxQml28XA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="last_purchase_transaction_id" name="last_purchase_transaction_id" sourceType="VARCHAR" talendType="id_String" xmi:id="_GbvKlbn-EemirfxQml28XA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="last_purchase_merchant_code" name="last_purchase_merchant_code" sourceType="VARCHAR" talendType="id_String" xmi:id="_GbvKlrn-EemirfxQml28XA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="parking_time_bonus" name="parking_time_bonus" sourceType="VARCHAR" talendType="id_String" xmi:id="_GbvKl7n-EemirfxQml28XA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="refunded_amount" name="refunded_amount" sourceType="VARCHAR" talendType="id_String" xmi:id="_GbvKmLn-EemirfxQml28XA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="vendor_transaction_id" name="vendor_transaction_id" sourceType="VARCHAR" talendType="id_String" xmi:id="_GbvKmbn-EemirfxQml28XA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="transaction_full_amount" name="transaction_full_amount" sourceType="VARCHAR" talendType="id_String" xmi:id="_GbvKmrn-EemirfxQml28XA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="parking_session_validation_rule_id" name="parking_session_validation_rule_id" sourceType="VARCHAR" talendType="id_String" xmi:id="_GbvKm7n-EemirfxQml28XA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="validation_amount" name="validation_amount" sourceType="VARCHAR" talendType="id_String" xmi:id="_cv7PYLosEem00qp-HBAsuA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="vendor_id" name="vendor_id" sourceType="VARCHAR" talendType="id_String" xmi:id="_grEPQLosEem00qp-HBAsuA" xsi:type="TalendMetadata:MetadataColumn"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_31fa465a-a91a-473a-adc4-5e29a403d4c8"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>wXdLf6mcPPxseMIm4w9pGWEWZrT1wKq+mMOF8NdtYKuGaJRHcBO8y/wK2EoTpP63A40IChbuN7b6
+S667RusLUA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a5987058-88f6-463c-a80b-ffea13f61067"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4sg4lrx8vtwXHN96noZptZywvbzlEm51yuYKjteNMnd9Uk2QhCdL/KSIPfiYPFZe576BswInvejk
+ra5Qg6NKGw==</DigestValue></Reference></SignedInfo><SignatureValue>Q/XYM9E1d3v1DPAphQKof0dEL31UWTPBeSrK0v++fMfuyODdfI8sqAeT5giVOf7wRAb63IxH9Mp9
+HJ04cUXy2hQv7SrJDQ7CWinyJFU7vlQRAFDPPa+5fR0+mj7tOZu8PkRNx5NAEIbU9IW+FXlaCFT2
+ohH1qY/vaGpAizMNvrE0KsbsVR6s/zsP4OrochmJRO3bQvocJ93s9XXgfxgUbwnNmRyOOEFKvBaO
+HOE1xd5jw6XBhfP1sC2XvJgBD1lLbdKpI8lJMQVzwiMrxFkMTte9bsF2IvS4CnvtJkh1pmG/etBz
+Fp7AhZvv+Rhj1l3pEUZ6iRv07rUWNnyJMi+8Og==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a5987058-88f6-463c-a80b-ffea13f61067" Target="#_31fa465a-a91a-473a-adc4-5e29a403d4c8"><Timestamp>2019-08-15 18:57:48</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
